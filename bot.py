@@ -8,7 +8,7 @@ from http.server import SimpleHTTPRequestHandler, HTTPServer
 import threading
 
 # ⚠️ Не забудьте вставить ваш токен от @BotFather!
-TOKEN = "ВАШ_ТОКЕН_БОТА"
+TOKEN = "5729872290:AAGoESQc6HkkFfNbbSsxrwDwjl64cO5Deco"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
