@@ -46,7 +46,7 @@ async def check_names(message: types.Message):
         return
         
     text_lower = message.text.lower()
-    trigger_words = ["герман", "гера", "гермиона"]
+    trigger_words = ["герман", "гера", "гермиона", "выдра", "кудрявый", "гермон"]
     
     # Если кто-то написал это имя в чате
     if any(word in text_lower for word in trigger_words):
